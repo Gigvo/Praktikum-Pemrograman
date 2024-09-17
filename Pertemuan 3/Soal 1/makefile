@@ -5,5 +5,5 @@ PersamaanKuadrat.o: PersamaanKuadrat.cpp
 	g++ -c PersamaanKuadrat.cpp
 
 clean:
-	rm *.o soal
+	del *.o soal
 	
