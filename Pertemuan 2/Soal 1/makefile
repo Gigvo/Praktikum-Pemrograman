@@ -1,8 +1,11 @@
-soal: Payslip.o 
-	g++ Payslip.o -o soal
+soal :Payslip.o
+	g++ Payslip.cpp -o soal
 
 Payslip.o: Payslip.cpp
 	g++ -c Payslip.cpp
 
-clean:
+clean: 
 	del *.o soal
+
+test: 
+	./soal

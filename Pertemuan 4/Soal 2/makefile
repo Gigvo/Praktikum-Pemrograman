@@ -1,8 +1,22 @@
-soal: Soal2.o
-	g++ Soal2.o -o soal
+do: multiplication testcase
 
-Soal2.o: Soal2.cpp
-	g++ -c Soal2.cpp
+multiplication: multiplication.o
+	g++ multiplication.o -o multiplication
 
-clean:
-	del *.o soal
+testcase: multiplication_test.o
+	g++ multiplication_test.o -o testcase
+
+multiplication.o: multiplication.cpp
+	g++ -c multiplication.cpp
+
+multiplication_test: multiplication_test.cpp
+	g++ -c multiplication_test.cpp
+
+run: 
+	./multiplication
+
+test: 
+	./testcase
+
+clean: 
+	del *.o multiplication testcase

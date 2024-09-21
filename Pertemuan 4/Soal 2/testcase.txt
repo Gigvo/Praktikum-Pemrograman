@@ -1,0 +1,66 @@
+5
+ 
+7
+
+13
+
+4
+
+9
+
+Expected output (in order):
+
+Output: 5 * 1 = 5
+Output: 5 * 2 = 10
+Output: 5 * 3 = 15
+Output: 5 * 4 = 20
+Output: 5 * 5 = 25
+Output: 5 * 6 = 30
+Output: 5 * 7 = 35
+Output: 5 * 8 = 40
+Output: 5 * 9 = 45
+Output: 5 * 10 = 50
+
+Output: 7 * 1 = 7
+Output: 7 * 2 = 14
+Output: 7 * 3 = 21
+Output: 7 * 4 = 28
+Output: 7 * 5 = 35
+Output: 7 * 6 = 42
+Output: 7 * 7 = 49
+Output: 7 * 8 = 56
+Output: 7 * 9 = 63
+Output: 7 * 10 = 70
+
+Output: 13 * 1 = 13
+Output: 13 * 2 = 26
+Output: 13 * 3 = 39
+Output: 13 * 4 = 52
+Output: 13 * 5 = 65
+Output: 13 * 6 = 78
+Output: 13 * 7 = 91
+Output: 13 * 8 = 104
+Output: 13 * 9 = 117
+Output: 13 * 10 = 130
+
+Output: 4 * 1 = 4
+Output: 4 * 2 = 8
+Output: 4 * 3 = 12
+Output: 4 * 4 = 16
+Output: 4 * 5 = 20
+Output: 4 * 6 = 24
+Output: 4 * 7 = 28
+Output: 4 * 8 = 32
+Output: 4 * 9 = 36
+Output: 4 * 10 = 40
+
+Output: 9 * 1 = 9
+Output: 9 * 2 = 18
+Output: 9 * 3 = 27
+Output: 9 * 4 = 36
+Output: 9 * 5 = 45
+Output: 9 * 6 = 54
+Output: 9 * 7 = 63
+Output: 9 * 8 = 72
+Output: 9 * 9 = 81
+Output: 9 * 10 = 90

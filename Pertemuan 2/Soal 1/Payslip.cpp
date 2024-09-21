@@ -5,9 +5,13 @@ int main()
 {
     int gross_salary, installment, insurance, net_salary, tax;
     string name;
+    cout << "Nama: ";
     getline (cin, name);
+    cout << "Gross salary: ";
     cin>>gross_salary;
+    cout << "Installment: ";
     cin>>installment;
+    cout << "Insurace: ";
     cin>>insurance;
     
     cout<<"Payslip for Employee"<<"\n";
