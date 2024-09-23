@@ -9,13 +9,9 @@ int main(){
 	
 	infile.open("testcase.txt");
 	
-	while(infile.is_open()){
-		infile >> a;
-		if (a == 0){
-			break;
-			infile.close();
-		}
-		cout << "Input: "<< a << endl;
+	if(infile.is_open()){
+		while(infile >> a){
+			cout << "Input: "<< a << endl;
 		for (int i = 1; i <= a; i++){
 		answer += i;
 	}
@@ -30,5 +26,6 @@ int main(){
 		}
 	}
 	answer = 0;
+	}
 	}
 }
