@@ -9,7 +9,7 @@ int main()
     ifstream infile;
     infile.open("testcase.txt");
     if(infile.is_open()){
-        while((getline(infile, name)) && (infile >> gross_salary >> installment >> insurance)){
+        while((getline(infile, name), infile >> gross_salary >> installment >> insurance)){
             cout<<"Payslip for Employee"<<"\n";
             cout<<"--------------------"<<"\n";
   	        cout<<"Nama: "<<name<<"\n";
@@ -21,6 +21,7 @@ int main()
             net_salary = gross_salary - tax - installment - insurance;
             cout<<"Net salary: "<<"Rp"<<net_salary<<",00";
         }
+    cout << endl;
     }
     
     return 0;

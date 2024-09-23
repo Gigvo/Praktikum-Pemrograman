@@ -1,11 +1,22 @@
-soal :Payslip.o
-	g++ Payslip.cpp -o soal
+do: payslip testcase
+
+payslip: Payslip.o
+	g++ Payslip.o -o payslip
+
+testcase: Payslip_test.o
+	g++ Payslip_test.o -o testcase
 
 Payslip.o: Payslip.cpp
 	g++ -c Payslip.cpp
 
-clean: 
-	del *.o soal
+Payslip_test.o: Payslip_test.cpp
+	g++ -c Payslip_test.cpp
 
-test: 
-	./soal
+run:
+	./payslip
+
+test:
+	./testcase
+
+clean:
+	del *.o payslip testcase
