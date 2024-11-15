@@ -12,8 +12,16 @@ code.o: code.cpp
 code_test.o: code_test.cpp
 	g++ -c code_test.cpp
 
+code2.o: code2.cpp
+	g++ -c code2.cpp
+
+code2_test: code2_test.cpp
+	g++ -c code2_test.cpp
+
 test:
 	./testcase
-
+	./code
+	./code2
+	./code2_test
 clean:
-	del *.o code testcase
+	del *.o code testcase code2 code2_test
